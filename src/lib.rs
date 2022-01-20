@@ -7,8 +7,10 @@ pub use crate::{
     shape::Shape,
     shape_manager::ShapesManager,
 };
+pub use gleam::gl::Gl;
 use gleam::gl::GlFns;
-use glfw::{self, Context, SwapInterval, Window, WindowEvent, WindowMode};
+pub use glfw::WindowEvent;
+use glfw::{self, Context, SwapInterval, Window, WindowMode};
 use log::debug;
 use std::{sync::mpsc::Receiver, time::Duration};
 
