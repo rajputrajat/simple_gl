@@ -88,4 +88,4 @@ pub fn build_shader_program(
 }
 
 struct ShaderId(GLuint);
-pub struct ProgramId(GLuint);
+pub struct ProgramId(pub GLuint);
