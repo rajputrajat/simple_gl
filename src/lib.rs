@@ -1,9 +1,11 @@
 mod error;
+mod shader_helper;
 mod shape;
 mod shape_manager;
 
 pub use crate::{
     error::{CustomError, CustomResult},
+    shader_helper::{build_shader_program, ProgramId},
     shape::Shape,
     shape_manager::ShapesManager,
 };
